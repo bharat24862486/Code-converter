@@ -1,25 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import { Box, Button, Flex, Heading, Image } from '@chakra-ui/react';
+import My from './Components/My';
+import Chat from './Components/Chat';
+import Type from './Components/Type';
+import { useState } from 'react';
+import axios from "axios"
+import Main from './Components/Main';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const [type, setType] = useState('')
+  const [text, setText] = useState('')
+  const [response, setResponse] = useState('')
+ 
+
+
+  return(
+    <Main type={type} setType={setType} text={text} setText={setText} response={response} setResponse={setResponse} />
+  )
 }
 
 export default App;
