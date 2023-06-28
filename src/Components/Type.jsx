@@ -9,7 +9,7 @@ const Type = ({type,setType}) => {
     }
   return (
     <Box >
-        <Select value={type?type:''} ref={ref1} mt={'50%'} onChange={change} bgColor={'white'} border={'1px solid black'} borderRadius={'10px'}>
+        <Select width={'20%'} m={'auto'} value={type?type:''} ref={ref1} mt={'2%'} onChange={change} bgColor={'white'} border={'1px solid black'} borderRadius={'10px'}>
             <option value={''}>-- select language --</option>
             <option value={'c'}>C</option>
             <option value={'c++'}>C++</option>

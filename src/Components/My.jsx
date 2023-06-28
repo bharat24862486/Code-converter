@@ -7,9 +7,9 @@ const My = ({text,setText}) => {
         setText(ref1.current.value)
     }
   return (
-    <Box bgColor={'white'} border={'1px solid black'} borderRadius={'10px'}>
+    <Box bgColor={'white'}  borderRadius={'10px'}>
        {/* <Input placeholder='Write your code'/> */}
-       <Textarea ref={ref1} pt={'30%'} onChange={change} value={text?text : ''} placeholder='Write your code' h={'50vh'} ></Textarea>
+       <Textarea ref={ref1} pt={'1%'} onChange={change} value={text?text : ''} placeholder='Write your code' h={'30vh'} ></Textarea>
        
       
     </Box>

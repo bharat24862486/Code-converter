@@ -106,15 +106,15 @@ const Main = ({text,setText,response,setResponse,type,setType}) => {
       <Box border={'1px solid balck'} textAlign={'center'}>
         {loading?  <Image display={'block'} m={'auto'} mt={'14%'} src='https://miro.medium.com/v2/resize:fit:1400/1*CsJ05WEGfunYMLGfsT2sXA.gif' /> : <Box>
           <Heading>Code Converter</Heading>
-          <Flex bgColor={'#CFD8DC'} border={'1px solid black'} m={['10% 10%']} mb={['2%']} p={['2%']} justifyContent={'space-around'}>
+          <Box bgColor={'blue.100'}  m={['1% 0%']} mb={['2%']} p={['2%']} >
             <My text={text} setText={setText} />
             <Type type={type} setType={setType} />
             <Chat response={response} setResponse={setResponse} />
-          </Flex>
+          </Box>
   
-          <Button onClick={click} m={'2%'} bgColor={'green.400'} color={'white'}>Submit</Button>
-          <Button onClick={debug} m={'2%'} bgColor={'green.400'} color={'white'}>Debug</Button>
-          <Button onClick={optimize} m={'2%'} bgColor={'green.400'} color={'white'}>Optimize</Button>
+          <Button onClick={click} m={'2%'} bgColor={'blue.300'} color={'white'}>Submit</Button>
+          <Button onClick={debug} m={'2%'} bgColor={'blue.300'} color={'white'}>Debug</Button>
+          <Button onClick={optimize} m={'2%'} bgColor={'blue.300'} color={'white'}>Optimize</Button>
         </Box>}
         {/* <Button onClick={click} bgColor={'green.400'} color={'white'}>Submit</Button> */}
   
