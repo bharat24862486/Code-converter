@@ -38,7 +38,7 @@ const Main = ({ text, setText, response, setResponse, type, setType }) => {
   function debug() {
 
     let obj = {
-      data: text + `fix the error?`
+      data: text + `is there any error in this code or not?`
       // hello: 'hello'
     }
 
@@ -60,7 +60,7 @@ const Main = ({ text, setText, response, setResponse, type, setType }) => {
 
   function optimize() {
     let obj = {
-      data: text + `give me the optimized approach for this code`
+      data: text + `if there is any optemized approach of this code or not?`
       // hello: 'hello'
     }
 
@@ -94,7 +94,7 @@ const Main = ({ text, setText, response, setResponse, type, setType }) => {
 
         <Button onClick={click} m={'2%'} bgColor={'blue.300'} color={'white'}>Submit</Button>
         <Button onClick={debug} m={'2%'} bgColor={'blue.300'} color={'white'}>Debug</Button>
-        {/* <Button onClick={optimize} m={'2%'} bgColor={'blue.300'} color={'white'}>Optimize</Button> */}
+        <Button onClick={optimize} m={'2%'} bgColor={'blue.300'} color={'white'}>Optimize</Button>
       </Box>}
       {/* <Button onClick={click} bgColor={'green.400'} color={'white'}>Submit</Button> */}
 
