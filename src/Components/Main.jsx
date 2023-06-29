@@ -94,7 +94,7 @@ const Main = ({ text, setText, response, setResponse, type, setType }) => {
 
         <Button onClick={click} m={'2%'} bgColor={'blue.300'} color={'white'}>Submit</Button>
         <Button onClick={debug} m={'2%'} bgColor={'blue.300'} color={'white'}>Debug</Button>
-        <Button onClick={optimize} m={'2%'} bgColor={'blue.300'} color={'white'}>Optimize</Button>
+        {/* <Button onClick={optimize} m={'2%'} bgColor={'blue.300'} color={'white'}>Optimize</Button> */}
       </Box>}
       {/* <Button onClick={click} bgColor={'green.400'} color={'white'}>Submit</Button> */}
 
