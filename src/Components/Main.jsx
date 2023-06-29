@@ -25,7 +25,7 @@ const Main = ({ text, setText, response, setResponse, type, setType }) => {
 
 
 
-    axios.post(`https://long-red-crow-slip.cyclic.app/send`, obj).then((res) => {
+    axios.post(`https://crimson-salamander-gown.cyclic.app/send`, obj).then((res) => {
       setLoading(false)
       return setResponse(res.data)
     }).catch((err) => {
@@ -49,7 +49,7 @@ const Main = ({ text, setText, response, setResponse, type, setType }) => {
 
 
 
-    axios.post(`https://long-red-crow-slip.cyclic.app/send`, obj).then((res) => {
+    axios.post(`https://crimson-salamander-gown.cyclic.app/send`, obj).then((res) => {
       setLoading(false)
       return setResponse(res.data)
     }).catch((err) => {
@@ -71,7 +71,7 @@ const Main = ({ text, setText, response, setResponse, type, setType }) => {
 
 
 
-    axios.post(`https://long-red-crow-slip.cyclic.app/send`, obj).then((res) => {
+    axios.post(`https://crimson-salamander-gown.cyclic.app/send`, obj).then((res) => {
       setLoading(false)
       return setResponse(res.data)
     }).catch((err) => {
